@@ -1,0 +1,27 @@
+{
+  "usuario": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "catalogo": [
+    { "slug": "sauce-labs-backpack",                 "nome": "Sauce Labs Backpack",               "preco": 29.99 },
+    { "slug": "sauce-labs-bike-light",               "nome": "Sauce Labs Bike Light",             "preco": 9.99 },
+    { "slug": "sauce-labs-bolt-t-shirt",             "nome": "Sauce Labs Bolt T-Shirt",           "preco": 15.99 },
+    { "slug": "sauce-labs-fleece-jacket",            "nome": "Sauce Labs Fleece Jacket",          "preco": 49.99 },
+    { "slug": "sauce-labs-onesie",                   "nome": "Sauce Labs Onesie",                 "preco": 7.99 },
+    { "slug": "test.allthethings()-t-shirt-(red)",   "nome": "Test.allTheThings() T-Shirt (Red)", "preco": 15.99 }
+  ],
+  "ordenacao": {
+    "precoMenorParaMaior": [7.99, 9.99, 15.99, 15.99, 29.99, 49.99],
+    "nomeZaA": [
+      "Test.allTheThings() T-Shirt (Red)",
+      "Sauce Labs Onesie",
+      "Sauce Labs Fleece Jacket",
+      "Sauce Labs Bolt T-Shirt",
+      "Sauce Labs Bike Light",
+      "Sauce Labs Backpack"
+    ]
+  },
+  "menuLateral": ["All Items", "Dynamic Catalog", "About", "Logout", "Reset App State"],
+  "urlAbout": "https://saucelabs.com/"
+}
